@@ -38,7 +38,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_1__"
+                    android:id="@+id/___SPECIFIC_ID_1___"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -47,14 +47,14 @@
                     android:layout_marginBottom="8dp"
                     android:layout_weight=".50"
                     android:scrollbars="none"
-                    android:text="__TEXT_1__"
+                    android:text="___TEXT_1___"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                     android:textColor="?colorOnSurface"
                     android:textStyle="bold"
                     tools:text="My field 1" />
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_2__"
+                    android:id="@+id/___SPECIFIC_ID_2___"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
@@ -63,7 +63,7 @@
                     android:layout_marginBottom="8dp"
                     android:layout_weight=".50"
                     android:scrollbars="none"
-                    android:text="__TEXT_2__"
+                    android:text="___TEXT_2___"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                     android:textColor="?colorOnSurface"
@@ -81,7 +81,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linear1">
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_3__"
+                    android:id="@+id/___SPECIFIC_ID_3___"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -90,13 +90,13 @@
                     android:layout_marginBottom="8dp"
                     android:layout_weight=".50"
                     android:scrollbars="none"
-                    android:text="__TEXT_3__"
+                    android:text="___TEXT_3___"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                     android:textColor="?colorOnSurface"
                     tools:text="My field 3" />
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_4__"
+                    android:id="@+id/___SPECIFIC_ID_4___"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
@@ -105,7 +105,7 @@
                     android:layout_marginBottom="8dp"
                     android:layout_weight=".50"
                     android:scrollbars="none"
-                    android:text="__TEXT_4__"
+                    android:text="___TEXT_4___"
                     android:textAlignment="viewEnd"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                     android:textColor="?colorOnSurface"
@@ -123,7 +123,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linear2">
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_5__"
+                    android:id="@+id/___SPECIFIC_ID_5___"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
@@ -131,7 +131,7 @@
                     android:layout_marginEnd="16dp"
                     android:layout_marginBottom="8dp"
                     android:scrollbars="none"
-                    android:text="__TEXT_5__"
+                    android:text="___TEXT_5___"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                     android:textColor="@color/black"
