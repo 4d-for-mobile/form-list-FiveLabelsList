@@ -126,7 +126,6 @@
                     style="@style/Theme.MyApplication.CustomCard.Footer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#EEEEEE"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linear2">
@@ -143,7 +142,6 @@
                         android:text="___TEXT_5___"
                         android:textAlignment="center"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                        android:textColor="@color/black"
                         tools:text="My field 5" />
 
                 </LinearLayout>
