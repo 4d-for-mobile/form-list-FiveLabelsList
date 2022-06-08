@@ -38,106 +38,101 @@
 
                 <!-- START EDITING HERE -->
 
-                <LinearLayout
-                    android:id="@+id/linear1"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraint1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
+                    android:layout_margin="16dp"
+                    app:layout_constraintBottom_toTopOf="@+id/constraint2"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
                         android:id="@+id/___SPECIFIC_ID_1___"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="6dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_weight=".50"
                         android:scrollbars="none"
                         android:text="___TEXT_1___"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                         android:textColor="?colorOnSurface"
                         android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
                         tools:text="My field 1" />
 
                     <TextView
                         android:id="@+id/___SPECIFIC_ID_2___"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="6dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_weight=".50"
                         android:scrollbars="none"
                         android:text="___TEXT_2___"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                         android:textColor="?colorOnSurface"
                         android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
                         tools:text="My field 2" />
 
-                </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <LinearLayout
-                    android:id="@+id/linear2"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraint2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/linear1">
+                    app:layout_constraintTop_toBottomOf="@+id/constraint1">
 
                     <TextView
                         android:id="@+id/___SPECIFIC_ID_3___"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="6dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_weight=".50"
                         android:scrollbars="none"
                         android:text="___TEXT_3___"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                         android:textColor="?colorOnSurface"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
                         tools:text="My field 3" />
 
                     <TextView
                         android:id="@+id/___SPECIFIC_ID_4___"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="6dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_weight=".50"
                         android:scrollbars="none"
                         android:text="___TEXT_4___"
                         android:textAlignment="viewEnd"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                         android:textColor="?colorOnSurface"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
                         tools:text="My field 4" />
 
-                </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <LinearLayout
                     style="@style/Theme.QMobileApp.Custom.Background"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/linear2">
+                    app:layout_constraintTop_toBottomOf="@+id/constraint2">
 
                     <TextView
                         android:id="@+id/___SPECIFIC_ID_5___"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="6dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="16dp"
-                        android:layout_marginBottom="8dp"
+                        android:layout_gravity="center"
                         android:scrollbars="none"
                         android:text="___TEXT_5___"
                         android:textAlignment="center"
